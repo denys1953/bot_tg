@@ -4,7 +4,7 @@ require('http').createServer().listen(process.env.PORT || 5000).on('request', fu
 
 var TelegramBot = require('node-telegram-bot-api');
 
-var token = '1209605305:AAGh7vRrHTwKoi_2aRf1PPsyBfHCs9XRBg4';
+var token = '1330103879:AAFTw1iaepCNWVGw-6gOWLyLyp7vf2LQQzA';
 
 var bot = new TelegramBot(token, {polling: true});
 
